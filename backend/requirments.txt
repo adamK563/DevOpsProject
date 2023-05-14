@@ -1,9 +1,3 @@
-<<<<<<< HEAD
 fastapi
 uvicorn
 requests
-=======
-fastapi
-uvicorn
-requests
->>>>>>> 1731ba29a6fa2ceffc05c4c20ec8dccf5f0a8539
