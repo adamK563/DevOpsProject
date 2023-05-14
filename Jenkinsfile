@@ -1,25 +1,23 @@
 pipeline {
     agent any
+
     tools {
-    docker 'docker'
+        // Define the Docker tool
+        dockerTool 'docker'
     }
+
     stages {
-        stage('Checkout') {
+        stage('Build image') {
             steps {
-                checkout([$class: 'GitSCM', branches: [[name: '*/main']], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[url: 'https://github.com/adamK563/DevOpsProject']]])
+                // Build the Docker image
+                sh 'docker build -t my-image .'
             }
         }
-        stage('Build and push') {
+
+        stage('Run container') {
             steps {
-                script {
-                    def dockerHome = tool 'docker'
-                    env.PATH = "${dockerHome}/bin:${env.PATH}"
-                    sh 'docker build -t backend .'
-                    withCredentials([usernamePassword(credentialsId: 'dockerhub-creds', passwordVariable: 'DOCKERHUB_PASSWORD', usernameVariable: 'DOCKERHUB_USERNAME')]) {
-                        sh 'echo $DOCKERHUB_PASSWORD | docker login -u $DOCKERHUB_USERNAME --password-stdin'
-                    }
-                    sh 'docker push backend'
-                }
+                // Run the Docker container
+                sh 'docker run -d -p 8080:8080 my-image'
             }
         }
     }
