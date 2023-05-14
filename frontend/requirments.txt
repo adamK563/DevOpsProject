@@ -1,4 +1,10 @@
+<<<<<<< HEAD
 streamlit
 requests
 streamlit-leaflet
+=======
+streamlit
+requests
+streamlit-leaflet
+>>>>>>> 1731ba29a6fa2ceffc05c4c20ec8dccf5f0a8539
 pandas
