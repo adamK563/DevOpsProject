@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Build image') {
             steps {
-                sh 'uptime'
+                sh 'uptime >> /tmp/JankinsOutput.txt'
             }
         }
     }

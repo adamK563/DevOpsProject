@@ -7,6 +7,8 @@ services:
     volumes:
       - jenkins_data:/var/jenkins_home
       - /var/run/docker.sock:/var/run/docker.sock
+      - C:\Users\Hunter\Desktop\DevOpsProject\DevOpsProject-main\JankinsOutput.txt:/tmp/JankinsOutput.txt
+
     restart: always
 
   backend:
