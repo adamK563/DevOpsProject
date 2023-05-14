@@ -1,0 +1,30 @@
+version: '3'
+services:
+  jenkins:
+    image: jenkins/jenkins:lts
+    ports:
+      - 8080:8080
+    volumes:
+      - jenkins_data:/var/jenkins_home
+    restart: always
+
+  backend:
+    container_name: backend
+    build:
+      context: ./backend/
+      dockerfile: Dockerfile
+    ports: 
+      - "8000:8000"
+
+  frontend:
+    container_name: frontend
+    build:
+      context: ./frontend/
+      dockerfile: Dockerfile
+    ports: 
+      - "8501:8501"
+    depends_on:
+      - backend
+
+volumes:
+  jenkins_data:
