@@ -61,7 +61,7 @@ Outline the steps required to install and set up the project. Include any depend
     https://minikube.sigs.k8s.io/
 
 
-## Usage
+## Usage 📈
 
 
 ## Architecture 👷🏽
