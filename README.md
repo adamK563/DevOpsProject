@@ -1,4 +1,4 @@
-# DevOps Project - Microservice Architecture with Docker, Jenkins and Kubernetes
+# DevOps Project - Microservice Architecture with Docker, Jenkins and Kubernetes 👩🏽‍💻 
 
 Microservice Architecture with Docker, Jenkins and K8s.
 
@@ -94,19 +94,19 @@ List the technologies used in the project. This can include programming language
 
 ## Developers Info💻:
 
-### Adam Karpovich
+### Adam Karpovich 👨🏼‍💻
 - Github - [adamK563](https://github.com/adamK563)
 - Linkedin - [Adam Karpovich](https://www.linkedin.com/in/adam-karpovich-26038a206/)
         
-### Veronika Kovaleva
+### Veronika Kovaleva 👩🏽‍💻
 - Github - [veronika8597](https://github.com/veronika8597)
 - Linkedin - [Veronika Kovalev](https://www.linkedin.com/in/veronika-kovalev-5a2a40178/)
 
-### Sergey Gershov
+### Sergey Gershov 🧑🏽‍💻
 - Github - [SergeyGers](https://github.com/SergeyGers)
 - Linkedin - [Sergey Gershov](https://www.linkedin.com/in/sergey-gershov-591370175/)
 
-## License
+## License 👌🏽
 
 This project is licensed under the [MIT License](LICENSE).
 
