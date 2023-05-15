@@ -14,7 +14,7 @@ Building scalable and automated microservices using Docker, Jenkins, and CI/CD p
 - [Contributing](#contributing)
 - [License](#license)
 
-## Overview
+## Overview 👀
 
 This project is a full-stack application written in Python, leveraging Streamlit and FastAPI frameworks. It features a map-based interface on the front end and a backend with two endpoints. The application performs an API call to the International Space Station (ISS) to retrieve its current location and sends this information back to the front end, where it is visualized on a map.
 
@@ -24,7 +24,7 @@ The main components of the project include:
 
 The combination of Docker and Jenkins facilitates the seamless deployment and automation of this microservice architecture. Dockerfiles and Docker Compose are utilized for containerization and deployment, while a containerized Jenkins Pipelines with a Jenkinsfile define the CI/CD processes.
 
-##  Set-up
+##  Set-up 🫱🏼‍🫲🏽
 
 1. First clone the repository to your local system :
 
@@ -64,10 +64,10 @@ Outline the steps required to install and set up the project. Include any depend
 ## Usage
 
 
-## Architecture
+## Architecture 👷🏽
 
 
-## Technologies
+## Technologies 💻
 
 List the technologies used in the project. This can include programming languages, frameworks, libraries, databases, or any other tools that are integral to the project.
 
