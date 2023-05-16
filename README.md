@@ -4,9 +4,9 @@ Microservice Architecture with Docker, Jenkins and K8s.
 
 Building scalable and automated microservices using Docker, Jenkins, and CI/CD pipeline.
 
-<img src="assets/docker.gif" alt="gif description" width="380" height="216"/>
+<img src="assets/jenkins.png" alt="img description" width="157" height="256" />
 
-<img src="assets/jenkins.png" alt="gif description"/>
+<img src="assets/docker.gif" alt="gif description" width="380" height="216"/>
 
 <img src="assets/k8s.gif" alt="gif description" width="460" height="134"/>
 
