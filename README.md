@@ -6,12 +6,12 @@ Building scalable and automated microservices using Docker, Jenkins, and CI/CD p
 
 ## Table of Contents 📖
 
-- [Overview](##overview)
-- [Prerequisites](##prerequisites)
-- [Set-up](##set-up)
-- [Usage](##usage)
-- [Architecture](##architecture)
-- [Technologies](##technologies)
+- [Overview](#overview)
+- [Prerequisites](#prerequisites)
+- [Set-up](#set-up)
+- [Usage](#usage)
+- [Architecture](#architecture)
+- [Technologies](#technologies)
 - [Developers Info](#developers-info)
 - [License](#license)
 
