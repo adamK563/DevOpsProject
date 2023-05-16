@@ -4,6 +4,10 @@ Microservice Architecture with Docker, Jenkins and K8s.
 
 Building scalable and automated microservices using Docker, Jenkins, and CI/CD pipeline.
 
+<img src="assets/docker.gif" alt="gif description" width="380" height="216"/>
+<img src="assets/jenkfeatured.gif" alt="gif description" width="256" height="128"/>
+<img src="assets/k8s.gif" alt="gif description" width="460" height="134"/>
+
 ## Table of Contents 📖
 
 - [Overview](#overview)
@@ -154,6 +158,3 @@ The MIT License is a permissive open-source license that allows you to freely us
 For more details, please refer to the [LICENSE](LICENSE) file.
 
 
-<img src="assets/docker.gif" alt="gif description" width="380" height="216"/>
-<img src="assets/jenkfeatured.gif" alt="gif description" width="256" height="128"/>
-<img src="assets/k8s.gif" alt="gif description" width="460" height="134"/>
