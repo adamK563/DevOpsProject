@@ -16,6 +16,7 @@ Building scalable and automated microservices using Docker, Jenkins, and CI/CD p
 - [License](#license)
 
 ## Overview 👀
+![Image Description](assets\SpcTrjVis.png)
 
 This project is a full-stack application written in Python, leveraging Streamlit and FastAPI frameworks. It features a map-based interface on the front end and a backend with two endpoints. The application performs an API call to the International Space Station (ISS) to retrieve its current location and sends this information back to the front end, where it is visualized on a map.
 
@@ -70,6 +71,37 @@ Docker: Docker is used for containerization and deployment. Dockerfiles and Dock
 Kubernetes: Kubernetes, specifically Minikube, is used for container orchestration. Minikube helps manage the deployment and scaling of the containers.
 
 The combination of Docker and Jenkins facilitates the seamless deployment and automation of this microservice architecture. Dockerfiles and Docker Compose are utilized for containerization and deployment, while a containerized Jenkins Pipelines with a Jenkinsfile define the CI/CD processes.
+
+```
++---------------------------------------------------------+
+|                      User Interface                     |
+|                    (Streamlit UI)                       |
++---------------------------------------------------------+
+                           |
+                           | REST API Requests
+                           |
+                           ▼
++---------------------------------------------------------+
+|                      Backend API                        |
+|                   (FastAPI Server)                      |
++---------------------------------------------------------+
+                           |
+                           | Docker Compose
+                           |
+                           ▼
++---------------------------------------------------------+
+|                    Docker Containers                    |
+|            (Frontend, Backend, Jenkins)                 |
++---------------------------------------------------------+
+                           |
+                           | Container Orchestration
+                           |
+                           ▼
++---------------------------------------------------------+
+|                     Kubernetes Cluster                  |
+|                      (Minikube)                         |
++---------------------------------------------------------+
+```
 
 ## Technologies 💻
 
