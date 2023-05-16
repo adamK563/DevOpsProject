@@ -16,7 +16,7 @@ Building scalable and automated microservices using Docker, Jenkins, and CI/CD p
 - [License](#license)
 
 ## Overview 👀
-![Image Description](.\assets\SpcTrjVis.png)
+![Image Description](assets/SpcTrjVis.png)
 
 This project is a full-stack application written in Python, leveraging Streamlit and FastAPI frameworks. It features a map-based interface on the front end and a backend with two endpoints. The application performs an API call to the International Space Station (ISS) to retrieve its current location and sends this information back to the front end, where it is visualized on a map.
 
