@@ -42,6 +42,8 @@ This project is a full-stack application written in Python, leveraging Streamlit
 
 this will create 3 containers for frontend, backend and jenkins.
 
+<img src="assets/SERVICESRUNING.png" alt="Image description" width="800" height="600" />
+
 ## Usage 📈
 
 - To enter the Backend FastAPI UI - open your browser and enter the URL : 
@@ -152,3 +154,6 @@ The MIT License is a permissive open-source license that allows you to freely us
 For more details, please refer to the [LICENSE](LICENSE) file.
 
 
+<img src="assets/docker.gif" alt="gif description" width="380" height="216"/>
+<img src="assets/jenkfeatured.gif" alt="gif description" width="256" height="128"/>
+<img src="assets/k8s.gif" alt="gif description" width="460" height="134"/>
