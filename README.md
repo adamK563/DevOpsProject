@@ -107,7 +107,7 @@ The combination of Docker and Jenkins facilitates the seamless deployment and au
                            ▼
 +---------------------------------------------------------+
 |                     Kubernetes Cluster                  |
-|                      (Minikube)                         |
+|                      (Kubernetes)                       |
 +---------------------------------------------------------+
 ```
 
@@ -131,8 +131,8 @@ The combination of Docker and Jenkins facilitates the seamless deployment and au
   - Images
   - Docker Compose
 - Kubernetes:
-  - Minikube
-  - Pods
+  - Deployment
+  - Service
 - Version Control:
   - Git
   - GitHub
