@@ -1,0 +1,16 @@
+apiVersion: app/v1
+kind: Deployment 
+metadata:
+  name: jenkins
+spec: 
+  replicas: 3 
+  selector:
+    matchLabels:
+      app: jenkins
+  metadata:
+    - name: jenkins
+      image: jenkins/jenkins:lts
+      ports: 
+      - containerPort: 8080
+
+  # kubectl apply -f deployment.yaml
