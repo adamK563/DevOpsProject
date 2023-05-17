@@ -1,4 +1,4 @@
-version: '3'
+version: '3' # specifies the version of the Docker Compose file format
 services:
   jenkins:
     image: jenkins/jenkins:lts
